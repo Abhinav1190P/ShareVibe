@@ -199,6 +199,7 @@ export default function Groups() {
         })
         return;
       }
+      console.log(selectedFriends)
       await api.post('/api/user/create-group', { name: groupName, participants: selectedFriends, admin: info._id })
         .then(({ data }) => {
           if (data.success) {
@@ -241,7 +242,7 @@ export default function Groups() {
 
   const handleCheckboxChange = (userId, username, profile_photo, isChecked) => {
     const user = { userId, userName: username, profile_photo: profile_photo };
-    console.log(user)
+
     if (isChecked) {
       setSelectedFriends((prevSelected) => [...prevSelected, user]);
     } else {
@@ -447,7 +448,7 @@ export default function Groups() {
     }
   };
 
-
+  
   return (
     <Flex bg={useColorModeValue('white', '#1A202C')} h="100vh">
       {/* Sidebar */}
@@ -696,7 +697,7 @@ export default function Groups() {
                     <HStack>
                       <Avatar
                         mr={3}
-                        src={participant.profile_photo}
+                        src={participant.profile_photo ? participant.profile_photo:null}
                         alt="Profile picture of Sender"
                         className="rounded-full mr-3"
                       />
