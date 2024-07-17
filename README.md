@@ -1,4 +1,4 @@
-# Social Media App
+# ShareVibe App
 
 Welcome to the Social Media App! This project is a full-featured social media application built on the MERN stack with additional functionalities for voice message denoising using a Python model. The app also leverages Cloudinary for media management and Zeegocloud for video call capabilities.
 
@@ -128,4 +128,4 @@ If you have any questions or feedback, feel free to reach out to the project mai
 
 ---
 
-Thank you for using our Social Media App! We hope you enjoy the features and find it useful for connecting with others.
+Thank you for using our ShareVibe App! We hope you enjoy the features and find it useful for connecting with others.
