@@ -121,11 +121,3 @@ We welcome contributions to improve this project! Please fork the repository and
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Contact
-
-If you have any questions or feedback, feel free to reach out to the project maintainer at your-email@example.com.
-
----
-
-Thank you for using our ShareVibe App! We hope you enjoy the features and find it useful for connecting with others.
